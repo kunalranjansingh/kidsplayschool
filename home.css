@@ -1,0 +1,290 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #fdfdfd;
+}
+
+
+
+.logo img {
+    width: 180px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+    position: sticky;
+   
+}
+
+
+.right ul {
+    display: flex;
+    gap: 35px;
+    list-style: none;
+    position: relative;
+}
+
+
+.right ul li {
+    position: relative;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 17px;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.right ul li:hover {
+    color: #f57c00;
+}
+
+
+ul .dropdown {
+    display: none;
+    position: absolute;
+    top: 100%;
+    min-width: 200px;
+    background-color: #fff;
+    border-radius: 6px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    padding: 12px 0;
+    
+}
+
+
+.dropdown li {
+    padding: 10px 20px;
+    color: #555;
+}
+
+.dropdown li:hover {
+    background-color: #f7f7f7;
+    color: #f57c00;
+}
+
+
+.hovv:hover .dropdown {
+    display: block;
+    opacity: 1;
+    visibility: visible;
+}
+
+
+.right ul li button {
+    background-color: #f57c00;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.right ul li button:hover {
+    background-color: #ef6c00;
+    
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    background-color: #25aec0;
+}
+
+.content .text {
+    flex: 1;
+    padding-right: 40px;
+}
+
+.content .image img {
+    width: 600px;
+}
+.text h3{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+.text1 p{
+    margin-right: 50px;
+}
+.text1{
+    line-height: 20px;
+    color: rgb(5, 53, 60);
+}
+.text1 h3{
+    font-family: cursive;
+    font-size: 70px;
+    color: rgb(5, 53, 60);
+}
+.text h1{
+    font-family: cursive;
+    font-size: 70px;
+    color: white;
+    line-height: 90px;
+}
+.text p{
+    color: white;
+    font-family: sans-serif;
+}
+.text button{
+    background-color: #f57c00;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.content1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 60px;
+    background-color: white;
+}
+.text1 button{
+    background-color: #f57c00;
+    color: #fff;
+    border: none;
+    padding: 15px 40px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.form-container {
+    background-color: #15aabf;
+    width: 1500px;
+    border-radius: 20px;
+}
+
+.form-header {
+    background-color: #1595a6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.form-header h2 {
+    font-size: 28px;
+}
+
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.booking-form1 {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+.booking-form1 input {
+    padding: 14px;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    width:300px;
+    border: 2px solid black;
+}
+.booking-form1 button {
+    padding: 14px;
+    background-color:#f57c00;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width:300px;
+}
+.booking-form select,input {
+    padding: 14px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+}
+
+.booking-form button {
+    padding: 14px;
+    background-color:#f57c00;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+    background-color: #ef6c00;
+}
+.imgg img{
+    margin-left: 50px;
+    border-radius: 50%;
+}
+.bg{
+    background-color: #25aec0;
+}
+.bg p{
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+   
+}
+.bg h3{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: cursive;
+}
+.footer p{
+    text-align: left;
+    line-height: 25px;
+    color: rgb(5, 53, 60);
+    margin-left: 50px;
+}
+.footer img{
+    width: 180px;
+    margin-left: 30px;
+}
+.contactt h3{
+    font-family: cursive;
+    font-size:50px;
+}
+.contactt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: rgb(5, 53, 60);
+    margin-top: -7cm;
+    margin-left: 15cm;
+
+}
+.formm h4{
+    font-family: cursive;
+    font-size:50px;
+    
+}
+.formm{
+    margin-top: -8cm;
+    margin-left: 27cm;
+    line-height: 2px;
+}
