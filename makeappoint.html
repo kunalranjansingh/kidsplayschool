@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Make Appointment</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #e0f7f7;
+      color: #003333;
+    }
+    header {
+      background-color: #0099a8;
+      color: white;
+      text-align: center;
+      padding: 30px 20px;
+    }
+    header h1 {
+      margin: 0;
+      font-size: 2.5em;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    form {
+      background-color: #ffffff;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    }
+    label {
+      display: block;
+      margin-top: 20px;
+      font-weight: bold;
+    }
+    input, select, textarea {
+      width: 100%;
+      padding: 12px;
+      margin-top: 8px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      box-sizing: border-box;
+    }
+    button {
+      margin-top: 25px;
+      background-color: #ff6600;
+      color: white;
+      border: none;
+      padding: 14px 20px;
+      font-size: 1em;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #e05500;
+    }
+    footer {
+      background-color: #007c91;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Book an Appointment</h1>
+  </header>
+
+  <section>
+    <p>Schedule a visit or consultation with us. Fill in the form below and we’ll get back to you with confirmation.</p>
+    <form>
+      <label for="name">Full Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+      <label for="email">Email Address</label>
+      <input type="email" id="email" name="email" placeholder="example@example.com" required />
+
+      <label for="phone">Phone Number</label>
+      <input type="tel" id="phone" name="phone" placeholder="+91 9999999999" required />
+
+      <label for="date">Preferred Date</label>
+      <input type="date" id="date" name="date" required />
+
+      <label for="time">Preferred Time</label>
+      <select id="time" name="time">
+        <option value="">Select a time</option>
+        <option>10:00 AM</option>
+        <option>11:00 AM</option>
+        <option>12:00 PM</option>
+        <option>2:00 PM</option>
+        <option>3:00 PM</option>
+      </select>
+
+      <label for="message">Additional Notes</label>
+      <textarea id="message" rows="4" placeholder="Tell us anything important..."></textarea>
+
+      <button type="submit">Submit Appointment</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Kids Learning Center | Designed with ❤️ by Kunal Ranjan Singh</p>
+  </footer>
+</body>
+</html>
